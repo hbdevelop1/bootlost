@@ -1,0 +1,650 @@
+Apr 11 01:09:01 HP-ProBook-650-G1 CRON[10744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 01:09:01 HP-ProBook-650-G1 CRON[10744]: pam_unix(cron:session): session closed for user root
+Apr 11 01:17:01 HP-ProBook-650-G1 CRON[11484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 01:17:01 HP-ProBook-650-G1 CRON[11484]: pam_unix(cron:session): session closed for user root
+Apr 11 01:39:01 HP-ProBook-650-G1 CRON[13331]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 01:39:01 HP-ProBook-650-G1 CRON[13331]: pam_unix(cron:session): session closed for user root
+Apr 11 01:46:46 HP-ProBook-650-G1 gnome-keyring-daemon[14146]: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Apr 11 02:09:01 HP-ProBook-650-G1 CRON[15822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 02:09:01 HP-ProBook-650-G1 CRON[15822]: pam_unix(cron:session): session closed for user root
+Apr 11 02:16:20 HP-ProBook-650-G1 systemd-logind[1351]: System is powering down.
+Apr 11 02:16:20 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session closed for user qwerty
+Apr 11 02:16:20 HP-ProBook-650-G1 systemd-logind[1351]: Removed session c1.
+Apr 11 09:26:26 HP-ProBook-650-G1 systemd-logind[1378]: New seat seat0.
+Apr 11 09:26:26 HP-ProBook-650-G1 systemd-logind[1378]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 11 09:26:26 HP-ProBook-650-G1 systemd-logind[1378]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 11 09:26:26 HP-ProBook-650-G1 systemd-logind[1378]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 11 09:26:26 HP-ProBook-650-G1 systemd-logind[1378]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 11 09:26:26 HP-ProBook-650-G1 systemd-logind[1378]: Watching system buttons on /dev/input/event19 (HP WMI hotkeys)
+Apr 11 09:26:26 HP-ProBook-650-G1 systemd-logind[1378]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 11 09:26:26 HP-ProBook-650-G1 systemd-logind[1378]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 11 09:26:27 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 11 09:26:27 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 11 09:26:27 HP-ProBook-650-G1 systemd-logind[1378]: New session c1 of user qwerty.
+Apr 11 09:26:27 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 11 09:26:28 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:28 HP-ProBook-650-G1 pkexec[2112]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec[2717]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 827]
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec[2747]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1354]
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec[2753]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1881]
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec[2759]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2408]
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec[2765]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2935]
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec[2771]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3462]
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec[2777]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3989]
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec[2783]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4516]
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:38 HP-ProBook-650-G1 pkexec[2789]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 5043]
+Apr 11 09:26:39 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 09:26:39 HP-ProBook-650-G1 pkexec[2795]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 5273]
+Apr 11 09:32:52 HP-ProBook-650-G1 systemd-logind[1378]: Lid closed.
+Apr 11 09:33:26 HP-ProBook-650-G1 systemd-logind[1378]: Lid opened.
+Apr 11 09:39:01 HP-ProBook-650-G1 CRON[4553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 09:39:01 HP-ProBook-650-G1 CRON[4553]: pam_unix(cron:session): session closed for user root
+Apr 11 10:09:01 HP-ProBook-650-G1 CRON[8314]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 10:09:01 HP-ProBook-650-G1 CRON[8314]: pam_unix(cron:session): session closed for user root
+Apr 11 10:17:01 HP-ProBook-650-G1 CRON[9571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 10:17:01 HP-ProBook-650-G1 CRON[9571]: pam_unix(cron:session): session closed for user root
+Apr 11 10:39:01 HP-ProBook-650-G1 CRON[12241]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 10:39:01 HP-ProBook-650-G1 CRON[12241]: pam_unix(cron:session): session closed for user root
+Apr 11 11:09:01 HP-ProBook-650-G1 CRON[15979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 11:09:01 HP-ProBook-650-G1 CRON[15979]: pam_unix(cron:session): session closed for user root
+Apr 11 11:17:01 HP-ProBook-650-G1 CRON[16614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 11:17:01 HP-ProBook-650-G1 CRON[16614]: pam_unix(cron:session): session closed for user root
+Apr 11 11:39:01 HP-ProBook-650-G1 CRON[18944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 11:39:01 HP-ProBook-650-G1 CRON[18944]: pam_unix(cron:session): session closed for user root
+Apr 11 11:57:11 HP-ProBook-650-G1 systemd-logind[1378]: Power key pressed.
+Apr 11 14:31:25 HP-ProBook-650-G1 systemd-logind[1368]: New seat seat0.
+Apr 11 14:31:25 HP-ProBook-650-G1 systemd-logind[1368]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 11 14:31:25 HP-ProBook-650-G1 systemd-logind[1368]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 11 14:31:25 HP-ProBook-650-G1 systemd-logind[1368]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 11 14:31:25 HP-ProBook-650-G1 systemd-logind[1368]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 11 14:31:25 HP-ProBook-650-G1 systemd-logind[1368]: Watching system buttons on /dev/input/event17 (HP WMI hotkeys)
+Apr 11 14:31:26 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 11 14:31:26 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 11 14:31:26 HP-ProBook-650-G1 systemd-logind[1368]: New session c1 of user qwerty.
+Apr 11 14:31:26 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 11 14:31:27 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 14:31:27 HP-ProBook-650-G1 pkexec[2068]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 11 14:39:01 HP-ProBook-650-G1 CRON[3305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 14:39:01 HP-ProBook-650-G1 CRON[3305]: pam_unix(cron:session): session closed for user root
+Apr 11 15:09:01 HP-ProBook-650-G1 CRON[6445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 15:09:01 HP-ProBook-650-G1 CRON[6445]: pam_unix(cron:session): session closed for user root
+Apr 11 15:17:01 HP-ProBook-650-G1 CRON[7090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 15:17:01 HP-ProBook-650-G1 CRON[7090]: pam_unix(cron:session): session closed for user root
+Apr 11 15:32:21 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 15:32:21 HP-ProBook-650-G1 pkexec[8333]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 827]
+Apr 11 15:32:21 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 15:32:21 HP-ProBook-650-G1 pkexec[8345]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1354]
+Apr 11 15:32:21 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 15:32:21 HP-ProBook-650-G1 pkexec[8351]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1881]
+Apr 11 15:32:21 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 15:32:21 HP-ProBook-650-G1 pkexec[8357]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2408]
+Apr 11 15:32:21 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 15:32:21 HP-ProBook-650-G1 pkexec[8363]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2935]
+Apr 11 15:34:52 HP-ProBook-650-G1 gnome-keyring-daemon[9334]: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Apr 11 15:35:59 HP-ProBook-650-G1 sudo:   qwerty : TTY=pts/0 ; PWD=/home/qwerty/wiki/hb3 ; USER=root ; COMMAND=/bin/chmod -R g+ws /home/qwerty/wiki
+Apr 11 15:35:59 HP-ProBook-650-G1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 15:36:02 HP-ProBook-650-G1 sudo: pam_unix(sudo:session): session closed for user root
+Apr 11 15:36:02 HP-ProBook-650-G1 sudo:   qwerty : TTY=pts/0 ; PWD=/home/qwerty/wiki/hb3 ; USER=root ; COMMAND=/bin/chown -R www-data:www-data /home/qwerty/wiki
+Apr 11 15:36:02 HP-ProBook-650-G1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 15:36:02 HP-ProBook-650-G1 sudo: pam_unix(sudo:session): session closed for user root
+Apr 11 15:39:01 HP-ProBook-650-G1 CRON[9770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 15:39:01 HP-ProBook-650-G1 CRON[9770]: pam_unix(cron:session): session closed for user root
+Apr 11 15:55:58 HP-ProBook-650-G1 systemd-logind[1368]: System is powering down.
+Apr 11 15:55:58 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session closed for user qwerty
+Apr 11 15:55:58 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session closed for user qwerty
+Apr 11 15:55:58 HP-ProBook-650-G1 systemd-logind[1368]: Removed session c1.
+Apr 11 19:03:16 HP-ProBook-650-G1 systemd-logind[1298]: New seat seat0.
+Apr 11 19:03:16 HP-ProBook-650-G1 systemd-logind[1298]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 11 19:03:16 HP-ProBook-650-G1 systemd-logind[1298]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 11 19:03:16 HP-ProBook-650-G1 systemd-logind[1298]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 11 19:03:16 HP-ProBook-650-G1 systemd-logind[1298]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 11 19:03:16 HP-ProBook-650-G1 systemd-logind[1298]: Watching system buttons on /dev/input/event17 (HP WMI hotkeys)
+Apr 11 19:03:17 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 11 19:03:17 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 11 19:03:17 HP-ProBook-650-G1 systemd-logind[1298]: New session c1 of user qwerty.
+Apr 11 19:03:17 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 11 19:03:18 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:03:18 HP-ProBook-650-G1 pkexec[2083]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec[2599]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2408]
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec[2611]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1881]
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec[2617]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1354]
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec[2623]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 827]
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec[2629]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 300]
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:03:28 HP-ProBook-650-G1 pkexec[2635]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 0]
+Apr 11 19:03:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:03:29 HP-ProBook-650-G1 pkexec[2642]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 19:07:45 HP-ProBook-650-G1 sudo:   qwerty : TTY=pts/0 ; PWD=/home/qwerty/wiki/hb3 ; USER=root ; COMMAND=/bin/chmod -R g+ws /home/qwerty/wiki
+Apr 11 19:07:45 HP-ProBook-650-G1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 19:07:48 HP-ProBook-650-G1 sudo: pam_unix(sudo:session): session closed for user root
+Apr 11 19:07:48 HP-ProBook-650-G1 sudo:   qwerty : TTY=pts/0 ; PWD=/home/qwerty/wiki/hb3 ; USER=root ; COMMAND=/bin/chown -R www-data:www-data /home/qwerty/wiki
+Apr 11 19:07:48 HP-ProBook-650-G1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 19:07:48 HP-ProBook-650-G1 sudo: pam_unix(sudo:session): session closed for user root
+Apr 11 19:09:01 HP-ProBook-650-G1 CRON[3482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 19:09:01 HP-ProBook-650-G1 CRON[3482]: pam_unix(cron:session): session closed for user root
+Apr 11 19:17:01 HP-ProBook-650-G1 CRON[4224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 19:17:01 HP-ProBook-650-G1 CRON[4224]: pam_unix(cron:session): session closed for user root
+Apr 11 19:23:28 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:23:28 HP-ProBook-650-G1 pkexec[5008]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 0]
+Apr 11 19:23:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:23:29 HP-ProBook-650-G1 pkexec[5027]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 19:23:30 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:23:30 HP-ProBook-650-G1 pkexec[5033]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1054]
+Apr 11 19:23:30 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:23:30 HP-ProBook-650-G1 pkexec[5039]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1581]
+Apr 11 19:24:15 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:24:15 HP-ProBook-650-G1 pkexec[5144]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1054]
+Apr 11 19:24:15 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:24:15 HP-ProBook-650-G1 pkexec[5155]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 19:24:15 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:24:15 HP-ProBook-650-G1 pkexec[5161]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 0]
+Apr 11 19:24:16 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:24:16 HP-ProBook-650-G1 pkexec[5167]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 19:24:16 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:24:16 HP-ProBook-650-G1 pkexec[5173]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1054]
+Apr 11 19:24:17 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:24:17 HP-ProBook-650-G1 pkexec[5179]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 19:27:38 HP-ProBook-650-G1 systemd-logind[1298]: Watching system buttons on /dev/input/event20 (Telink Wireless Receiver)
+Apr 11 19:27:38 HP-ProBook-650-G1 systemd-logind[1298]: Watching system buttons on /dev/input/event21 (Telink Wireless Receiver)
+Apr 11 19:39:01 HP-ProBook-650-G1 CRON[6645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 19:39:01 HP-ProBook-650-G1 CRON[6645]: pam_unix(cron:session): session closed for user root
+Apr 11 19:54:11 HP-ProBook-650-G1 systemd-logind[1298]: Power key pressed.
+Apr 11 19:54:11 HP-ProBook-650-G1 dbus-daemon[1317]: [system] Rejected send message, 4 matched rules; type="method_call", sender=":1.31" (uid=1000 pid=1881 comm="xfce4-power-manager " label="unconfined") interface="org.freedesktop.NetworkManager" member="Sleep" error name="(unset)" requested_reply="0" destination=":1.11" (uid=0 pid=1375 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 11 19:54:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 19:54:12 HP-ProBook-650-G1 pkexec[8080]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 19:54:12 HP-ProBook-650-G1 dbus-daemon[1317]: [system] Rejected send message, 4 matched rules; type="method_call", sender=":1.31" (uid=1000 pid=1881 comm="xfce4-power-manager " label="unconfined") interface="org.freedesktop.NetworkManager" member="Sleep" error name="(unset)" requested_reply="0" destination=":1.11" (uid=0 pid=1375 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 11 19:54:22 HP-ProBook-650-G1 systemd-logind[1298]: Lid closed.
+Apr 11 19:54:22 HP-ProBook-650-G1 dbus-daemon[1317]: [system] Rejected send message, 1 matched rules; type="error", sender=":1.35" (uid=1000 pid=1900 comm="/usr/bin/pulseaudio --start --log-target=syslog " label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.16" (uid=0 pid=1539 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")
+Apr 11 19:54:22 HP-ProBook-650-G1 dbus-daemon[1317]: message repeated 3 times: [ [system] Rejected send message, 1 matched rules; type="error", sender=":1.35" (uid=1000 pid=1900 comm="/usr/bin/pulseaudio --start --log-target=syslog " label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.16" (uid=0 pid=1539 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")]
+Apr 11 19:54:22 HP-ProBook-650-G1 gnome-keyring-daemon[8365]: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Apr 11 19:54:23 HP-ProBook-650-G1 systemd-logind[1298]: Operation 'sleep' finished.
+Apr 11 20:09:01 HP-ProBook-650-G1 CRON[9962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 20:09:01 HP-ProBook-650-G1 CRON[9962]: pam_unix(cron:session): session closed for user root
+Apr 11 20:17:01 HP-ProBook-650-G1 CRON[10624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 20:17:01 HP-ProBook-650-G1 CRON[10624]: pam_unix(cron:session): session closed for user root
+Apr 11 20:39:01 HP-ProBook-650-G1 CRON[12309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 20:39:01 HP-ProBook-650-G1 CRON[12309]: pam_unix(cron:session): session closed for user root
+Apr 11 21:09:01 HP-ProBook-650-G1 CRON[14616]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 21:09:01 HP-ProBook-650-G1 CRON[14616]: pam_unix(cron:session): session closed for user root
+Apr 11 21:17:01 HP-ProBook-650-G1 CRON[15245]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 21:17:01 HP-ProBook-650-G1 CRON[15245]: pam_unix(cron:session): session closed for user root
+Apr 11 21:23:49 HP-ProBook-650-G1 systemd-logind[1298]: Lid opened.
+Apr 11 21:23:53 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 21:23:53 HP-ProBook-650-G1 pkexec[15715]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 0]
+Apr 11 21:23:55 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 21:23:55 HP-ProBook-650-G1 pkexec[15728]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 21:39:01 HP-ProBook-650-G1 CRON[18013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 21:39:01 HP-ProBook-650-G1 CRON[18013]: pam_unix(cron:session): session closed for user root
+Apr 11 21:56:37 HP-ProBook-650-G1 systemd-logind[1298]: System is powering down.
+Apr 11 21:56:37 HP-ProBook-650-G1 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.28, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8) (disconnected from bus)
+Apr 11 21:56:37 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session closed for user qwerty
+Apr 11 21:56:37 HP-ProBook-650-G1 systemd-logind[1298]: Removed session c1.
+Apr 11 22:20:00 HP-ProBook-650-G1 systemd-logind[1408]: New seat seat0.
+Apr 11 22:20:00 HP-ProBook-650-G1 systemd-logind[1408]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 11 22:20:00 HP-ProBook-650-G1 systemd-logind[1408]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 11 22:20:00 HP-ProBook-650-G1 systemd-logind[1408]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 11 22:20:01 HP-ProBook-650-G1 systemd-logind[1408]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 11 22:20:01 HP-ProBook-650-G1 systemd-logind[1408]: Watching system buttons on /dev/input/event19 (HP WMI hotkeys)
+Apr 11 22:20:01 HP-ProBook-650-G1 systemd-logind[1408]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 11 22:20:01 HP-ProBook-650-G1 systemd-logind[1408]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 11 22:20:02 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 11 22:20:02 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 11 22:20:02 HP-ProBook-650-G1 systemd-logind[1408]: New session c1 of user qwerty.
+Apr 11 22:20:02 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 11 22:20:03 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:20:03 HP-ProBook-650-G1 pkexec[2043]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 11 22:20:06 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:20:06 HP-ProBook-650-G1 pkexec[2412]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 0]
+Apr 11 22:20:07 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:20:07 HP-ProBook-650-G1 pkexec[2430]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 22:22:02 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:22:02 HP-ProBook-650-G1 pkexec[2843]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 0]
+Apr 11 22:22:03 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:22:03 HP-ProBook-650-G1 pkexec[2855]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 22:22:03 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:22:03 HP-ProBook-650-G1 pkexec[2861]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1054]
+Apr 11 22:22:03 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:22:03 HP-ProBook-650-G1 pkexec[2867]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1581]
+Apr 11 22:22:04 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:22:04 HP-ProBook-650-G1 pkexec[2873]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2108]
+Apr 11 22:22:04 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:22:04 HP-ProBook-650-G1 pkexec[2879]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1581]
+Apr 11 22:22:04 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:22:04 HP-ProBook-650-G1 pkexec[2885]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1054]
+Apr 11 22:22:04 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:22:04 HP-ProBook-650-G1 pkexec[2891]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 22:22:04 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:22:04 HP-ProBook-650-G1 pkexec[2897]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 0]
+Apr 11 22:22:05 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 11 22:22:05 HP-ProBook-650-G1 pkexec[2904]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 11 22:24:13 HP-ProBook-650-G1 sudo:   qwerty : TTY=pts/0 ; PWD=/home/qwerty ; USER=root ; COMMAND=/bin/sh -c echo 300 > /sys/class/backlight/intel_backlight/brightness
+Apr 11 22:24:13 HP-ProBook-650-G1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 22:24:13 HP-ProBook-650-G1 sudo: pam_unix(sudo:session): session closed for user root
+Apr 11 22:39:01 HP-ProBook-650-G1 CRON[4428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 22:39:01 HP-ProBook-650-G1 CRON[4428]: pam_unix(cron:session): session closed for user root
+Apr 11 23:09:01 HP-ProBook-650-G1 CRON[7687]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 23:09:01 HP-ProBook-650-G1 CRON[7687]: pam_unix(cron:session): session closed for user root
+Apr 11 23:17:01 HP-ProBook-650-G1 CRON[8547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 11 23:17:01 HP-ProBook-650-G1 CRON[8547]: pam_unix(cron:session): session closed for user root
+Apr 11 23:31:40 HP-ProBook-650-G1 systemd-logind[1408]: System is powering down.
+Apr 11 23:31:40 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session closed for user qwerty
+Apr 12 08:23:16 HP-ProBook-650-G1 systemd-logind[1338]: New seat seat0.
+Apr 12 08:23:16 HP-ProBook-650-G1 systemd-logind[1338]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 12 08:23:16 HP-ProBook-650-G1 systemd-logind[1338]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 12 08:23:16 HP-ProBook-650-G1 systemd-logind[1338]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 12 08:23:16 HP-ProBook-650-G1 systemd-logind[1338]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 12 08:23:16 HP-ProBook-650-G1 systemd-logind[1338]: Watching system buttons on /dev/input/event10 (HP WMI hotkeys)
+Apr 12 08:23:16 HP-ProBook-650-G1 systemd-logind[1338]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 12 08:23:16 HP-ProBook-650-G1 systemd-logind[1338]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 12 08:23:17 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 12 08:23:17 HP-ProBook-650-G1 systemd-logind[1338]: New session c1 of user qwerty.
+Apr 12 08:23:17 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 12 08:23:17 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 12 08:23:18 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:18 HP-ProBook-650-G1 pkexec[2084]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec[2706]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 827]
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec[2718]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1354]
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec[2724]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1881]
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec[2730]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2408]
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec[2736]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2935]
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:33 HP-ProBook-650-G1 pkexec[2742]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3462]
+Apr 12 08:23:34 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:34 HP-ProBook-650-G1 pkexec[2748]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3989]
+Apr 12 08:23:34 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:34 HP-ProBook-650-G1 pkexec[2754]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4516]
+Apr 12 08:23:34 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:34 HP-ProBook-650-G1 pkexec[2760]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 5043]
+Apr 12 08:23:34 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:23:34 HP-ProBook-650-G1 pkexec[2766]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 5273]
+Apr 12 08:26:00 HP-ProBook-650-G1 systemd-logind[1338]: Lid closed.
+Apr 12 08:31:29 HP-ProBook-650-G1 systemd-logind[1338]: Lid opened.
+Apr 12 08:31:44 HP-ProBook-650-G1 systemd-logind[1338]: Lid closed.
+Apr 12 08:39:01 HP-ProBook-650-G1 CRON[5052]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 08:39:01 HP-ProBook-650-G1 CRON[5052]: pam_unix(cron:session): session closed for user root
+Apr 12 08:40:03 HP-ProBook-650-G1 systemd-logind[1338]: Lid opened.
+Apr 12 08:51:43 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:43 HP-ProBook-650-G1 pkexec[7535]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4746]
+Apr 12 08:51:44 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:44 HP-ProBook-650-G1 pkexec[7546]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4219]
+Apr 12 08:51:44 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:44 HP-ProBook-650-G1 pkexec[7552]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3692]
+Apr 12 08:51:44 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:44 HP-ProBook-650-G1 pkexec[7558]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3165]
+Apr 12 08:51:44 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:44 HP-ProBook-650-G1 pkexec[7564]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2638]
+Apr 12 08:51:44 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:44 HP-ProBook-650-G1 pkexec[7570]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2111]
+Apr 12 08:51:45 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:45 HP-ProBook-650-G1 pkexec[7576]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1584]
+Apr 12 08:51:45 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:45 HP-ProBook-650-G1 pkexec[7611]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1057]
+Apr 12 08:51:45 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:45 HP-ProBook-650-G1 pkexec[7617]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 530]
+Apr 12 08:51:46 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:46 HP-ProBook-650-G1 pkexec[7627]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3]
+Apr 12 08:51:46 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 08:51:46 HP-ProBook-650-G1 pkexec[7633]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 530]
+Apr 12 09:09:01 HP-ProBook-650-G1 CRON[10126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 09:09:01 HP-ProBook-650-G1 CRON[10126]: pam_unix(cron:session): session closed for user root
+Apr 12 09:13:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:38 HP-ProBook-650-G1 pkexec[11011]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1057]
+Apr 12 09:13:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:38 HP-ProBook-650-G1 pkexec[11022]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1584]
+Apr 12 09:13:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:38 HP-ProBook-650-G1 pkexec[11028]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2111]
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec[11034]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2638]
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec[11040]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3165]
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec[11046]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3692]
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec[11052]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4219]
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec[11058]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4746]
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:39 HP-ProBook-650-G1 pkexec[11064]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 5273]
+Apr 12 09:13:49 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:49 HP-ProBook-650-G1 pkexec[11076]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4746]
+Apr 12 09:13:49 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:49 HP-ProBook-650-G1 pkexec[11082]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4219]
+Apr 12 09:13:49 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:49 HP-ProBook-650-G1 pkexec[11088]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3692]
+Apr 12 09:13:49 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:49 HP-ProBook-650-G1 pkexec[11094]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3165]
+Apr 12 09:13:49 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:49 HP-ProBook-650-G1 pkexec[11100]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2638]
+Apr 12 09:13:50 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:50 HP-ProBook-650-G1 pkexec[11106]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2111]
+Apr 12 09:13:50 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:50 HP-ProBook-650-G1 pkexec[11112]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1584]
+Apr 12 09:13:50 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:50 HP-ProBook-650-G1 pkexec[11118]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1057]
+Apr 12 09:13:50 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:50 HP-ProBook-650-G1 pkexec[11124]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 530]
+Apr 12 09:13:51 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:51 HP-ProBook-650-G1 pkexec[11130]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3]
+Apr 12 09:13:52 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:13:52 HP-ProBook-650-G1 pkexec[11137]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 530]
+Apr 12 09:17:01 HP-ProBook-650-G1 CRON[11636]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 09:17:01 HP-ProBook-650-G1 CRON[11636]: pam_unix(cron:session): session closed for user root
+Apr 12 09:19:28 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:19:28 HP-ProBook-650-G1 pkexec[12152]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1057]
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec[12163]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1584]
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec[12169]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2111]
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec[12175]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2638]
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec[12181]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3165]
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec[12187]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3692]
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec[12193]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4219]
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec[12199]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4746]
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 09:19:29 HP-ProBook-650-G1 pkexec[12205]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 5273]
+Apr 12 09:30:57 HP-ProBook-650-G1 systemd-logind[1338]: Lid closed.
+Apr 12 09:39:01 HP-ProBook-650-G1 CRON[14694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 09:39:01 HP-ProBook-650-G1 CRON[14694]: pam_unix(cron:session): session closed for user root
+Apr 12 10:09:01 HP-ProBook-650-G1 CRON[17682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 10:09:01 HP-ProBook-650-G1 CRON[17682]: pam_unix(cron:session): session closed for user root
+Apr 12 10:17:01 HP-ProBook-650-G1 CRON[18406]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 10:17:01 HP-ProBook-650-G1 CRON[18406]: pam_unix(cron:session): session closed for user root
+Apr 12 10:25:19 HP-ProBook-650-G1 systemd-logind[1338]: Lid opened.
+Apr 12 10:25:25 HP-ProBook-650-G1 systemd-logind[1338]: System is powering down.
+Apr 12 10:25:25 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session closed for user qwerty
+Apr 12 10:25:25 HP-ProBook-650-G1 systemd-logind[1338]: Removed session c1.
+Apr 12 16:47:30 HP-ProBook-650-G1 systemd-logind[1413]: New seat seat0.
+Apr 12 16:47:30 HP-ProBook-650-G1 systemd-logind[1413]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 12 16:47:30 HP-ProBook-650-G1 systemd-logind[1413]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 12 16:47:30 HP-ProBook-650-G1 systemd-logind[1413]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 12 16:47:30 HP-ProBook-650-G1 systemd-logind[1413]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 12 16:47:30 HP-ProBook-650-G1 systemd-logind[1413]: Watching system buttons on /dev/input/event19 (HP WMI hotkeys)
+Apr 12 16:47:30 HP-ProBook-650-G1 systemd-logind[1413]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 12 16:47:30 HP-ProBook-650-G1 systemd-logind[1413]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 12 16:47:31 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 12 16:47:31 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 12 16:47:31 HP-ProBook-650-G1 systemd-logind[1413]: New session c1 of user qwerty.
+Apr 12 16:47:31 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 12 16:47:32 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 16:47:32 HP-ProBook-650-G1 pkexec[2135]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 12 17:09:01 HP-ProBook-650-G1 CRON[7386]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 17:09:01 HP-ProBook-650-G1 CRON[7386]: pam_unix(cron:session): session closed for user root
+Apr 12 17:17:01 HP-ProBook-650-G1 CRON[8582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 17:17:01 HP-ProBook-650-G1 CRON[8582]: pam_unix(cron:session): session closed for user root
+Apr 12 17:34:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:29 HP-ProBook-650-G1 pkexec[10975]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4746]
+Apr 12 17:34:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:29 HP-ProBook-650-G1 pkexec[10986]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4219]
+Apr 12 17:34:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:29 HP-ProBook-650-G1 pkexec[10992]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3692]
+Apr 12 17:34:29 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:29 HP-ProBook-650-G1 pkexec[10998]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3165]
+Apr 12 17:34:30 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:30 HP-ProBook-650-G1 pkexec[11004]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2638]
+Apr 12 17:34:30 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:30 HP-ProBook-650-G1 pkexec[11010]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2111]
+Apr 12 17:34:30 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:30 HP-ProBook-650-G1 pkexec[11016]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1584]
+Apr 12 17:34:30 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:30 HP-ProBook-650-G1 pkexec[11022]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1057]
+Apr 12 17:34:31 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:31 HP-ProBook-650-G1 pkexec[11028]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 530]
+Apr 12 17:34:31 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:31 HP-ProBook-650-G1 pkexec[11034]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3]
+Apr 12 17:34:32 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 17:34:32 HP-ProBook-650-G1 pkexec[11040]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 530]
+Apr 12 17:39:01 HP-ProBook-650-G1 CRON[11653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 17:39:01 HP-ProBook-650-G1 CRON[11653]: pam_unix(cron:session): session closed for user root
+Apr 12 18:09:01 HP-ProBook-650-G1 CRON[14518]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 18:09:01 HP-ProBook-650-G1 CRON[14518]: pam_unix(cron:session): session closed for user root
+Apr 12 18:17:01 HP-ProBook-650-G1 CRON[16171]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 18:17:01 HP-ProBook-650-G1 CRON[16171]: pam_unix(cron:session): session closed for user root
+Apr 12 18:17:41 HP-ProBook-650-G1 systemd-logind[1413]: System is powering down.
+Apr 12 18:17:41 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session closed for user qwerty
+Apr 12 18:17:41 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session closed for user qwerty
+Apr 12 18:17:41 HP-ProBook-650-G1 systemd-logind[1413]: Removed session c1.
+Apr 12 19:25:25 HP-ProBook-650-G1 systemd-logind[1352]: New seat seat0.
+Apr 12 19:25:25 HP-ProBook-650-G1 systemd-logind[1352]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 12 19:25:25 HP-ProBook-650-G1 systemd-logind[1352]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 12 19:25:25 HP-ProBook-650-G1 systemd-logind[1352]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 12 19:25:25 HP-ProBook-650-G1 systemd-logind[1352]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 12 19:25:25 HP-ProBook-650-G1 systemd-logind[1352]: Watching system buttons on /dev/input/event10 (HP WMI hotkeys)
+Apr 12 19:25:25 HP-ProBook-650-G1 systemd-logind[1352]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 12 19:25:25 HP-ProBook-650-G1 systemd-logind[1352]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 12 19:25:26 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 12 19:25:26 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 12 19:25:26 HP-ProBook-650-G1 systemd-logind[1352]: New session c1 of user qwerty.
+Apr 12 19:25:26 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 12 19:25:27 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 19:25:27 HP-ProBook-650-G1 pkexec[2077]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 12 19:39:01 HP-ProBook-650-G1 CRON[4521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 19:39:01 HP-ProBook-650-G1 CRON[4521]: pam_unix(cron:session): session closed for user root
+Apr 12 20:09:01 HP-ProBook-650-G1 CRON[7625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 20:09:01 HP-ProBook-650-G1 CRON[7625]: pam_unix(cron:session): session closed for user root
+Apr 12 20:17:01 HP-ProBook-650-G1 CRON[8545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 20:17:01 HP-ProBook-650-G1 CRON[8545]: pam_unix(cron:session): session closed for user root
+Apr 12 20:28:11 HP-ProBook-650-G1 systemd-logind[1352]: System is powering down.
+Apr 12 20:28:11 HP-ProBook-650-G1 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.28, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8) (disconnected from bus)
+Apr 12 20:28:11 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session closed for user qwerty
+Apr 12 20:28:11 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session closed for user qwerty
+Apr 12 20:28:11 HP-ProBook-650-G1 systemd-logind[1352]: Removed session c1.
+Apr 12 21:07:28 HP-ProBook-650-G1 systemd-logind[1334]: New seat seat0.
+Apr 12 21:07:28 HP-ProBook-650-G1 systemd-logind[1334]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 12 21:07:28 HP-ProBook-650-G1 systemd-logind[1334]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 12 21:07:28 HP-ProBook-650-G1 systemd-logind[1334]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 12 21:07:28 HP-ProBook-650-G1 systemd-logind[1334]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 12 21:07:28 HP-ProBook-650-G1 systemd-logind[1334]: Watching system buttons on /dev/input/event19 (HP WMI hotkeys)
+Apr 12 21:07:28 HP-ProBook-650-G1 systemd-logind[1334]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 12 21:07:28 HP-ProBook-650-G1 systemd-logind[1334]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 12 21:07:29 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 12 21:07:29 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 12 21:07:29 HP-ProBook-650-G1 systemd-logind[1334]: New session c1 of user qwerty.
+Apr 12 21:07:29 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 12 21:07:30 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 21:07:30 HP-ProBook-650-G1 pkexec[2061]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 12 21:09:01 HP-ProBook-650-G1 CRON[3440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 21:09:01 HP-ProBook-650-G1 CRON[3440]: pam_unix(cron:session): session closed for user root
+Apr 12 21:17:01 HP-ProBook-650-G1 CRON[5192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 12 21:17:01 HP-ProBook-650-G1 CRON[5192]: pam_unix(cron:session): session closed for user root
+Apr 12 21:22:04 HP-ProBook-650-G1 systemd-logind[1334]: Power key pressed.
+Apr 12 21:22:04 HP-ProBook-650-G1 dbus-daemon[1410]: [system] Rejected send message, 4 matched rules; type="method_call", sender=":1.31" (uid=1000 pid=1917 comm="xfce4-power-manager " label="unconfined") interface="org.freedesktop.NetworkManager" member="Sleep" error name="(unset)" requested_reply="0" destination=":1.13" (uid=0 pid=1469 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 12 21:22:04 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 12 21:22:04 HP-ProBook-650-G1 pkexec[6247]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 530]
+Apr 12 21:22:04 HP-ProBook-650-G1 dbus-daemon[1410]: [system] Rejected send message, 4 matched rules; type="method_call", sender=":1.31" (uid=1000 pid=1917 comm="xfce4-power-manager " label="unconfined") interface="org.freedesktop.NetworkManager" member="Sleep" error name="(unset)" requested_reply="0" destination=":1.13" (uid=0 pid=1469 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 12 21:22:05 HP-ProBook-650-G1 systemd-logind[1334]: Power key pressed.
+Apr 12 21:22:46 HP-ProBook-650-G1 dbus-daemon[1410]: [system] Rejected send message, 1 matched rules; type="error", sender=":1.36" (uid=1000 pid=1954 comm="/usr/bin/pulseaudio --start --log-target=syslog " label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.10" (uid=0 pid=1548 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")
+Apr 12 21:22:46 HP-ProBook-650-G1 dbus-daemon[1410]: message repeated 3 times: [ [system] Rejected send message, 1 matched rules; type="error", sender=":1.36" (uid=1000 pid=1954 comm="/usr/bin/pulseaudio --start --log-target=syslog " label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.10" (uid=0 pid=1548 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")]
+Apr 12 21:22:47 HP-ProBook-650-G1 gnome-keyring-daemon[6552]: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Apr 12 21:22:47 HP-ProBook-650-G1 systemd-logind[1334]: Operation 'sleep' finished.
+Apr 12 21:22:57 HP-ProBook-650-G1 systemd-logind[1334]: System is powering down.
+Apr 12 21:22:57 HP-ProBook-650-G1 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.28, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8) (disconnected from bus)
+Apr 12 21:22:57 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session closed for user qwerty
+Apr 12 21:22:57 HP-ProBook-650-G1 systemd-logind[1334]: Removed session c1.
+Apr 13 08:32:20 HP-ProBook-650-G1 systemd-logind[1301]: New seat seat0.
+Apr 13 08:32:20 HP-ProBook-650-G1 systemd-logind[1301]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 13 08:32:20 HP-ProBook-650-G1 systemd-logind[1301]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 13 08:32:20 HP-ProBook-650-G1 systemd-logind[1301]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 13 08:32:20 HP-ProBook-650-G1 systemd-logind[1301]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 13 08:32:20 HP-ProBook-650-G1 systemd-logind[1301]: Watching system buttons on /dev/input/event19 (HP WMI hotkeys)
+Apr 13 08:32:20 HP-ProBook-650-G1 systemd-logind[1301]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 13 08:32:20 HP-ProBook-650-G1 systemd-logind[1301]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 13 08:32:21 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 13 08:32:21 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 13 08:32:21 HP-ProBook-650-G1 systemd-logind[1301]: New session c1 of user qwerty.
+Apr 13 08:32:21 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 13 08:32:22 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:32:22 HP-ProBook-650-G1 pkexec[2029]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 13 08:37:52 HP-ProBook-650-G1 systemd-logind[1301]: Lid opened.
+Apr 13 08:38:01 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:01 HP-ProBook-650-G1 pkexec[3294]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3]
+Apr 13 08:38:01 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:01 HP-ProBook-650-G1 pkexec[3335]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 530]
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec[3368]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1057]
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec[3377]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1584]
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec[3401]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2111]
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec[3407]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2638]
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec[3413]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3165]
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec[3419]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3692]
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec[3425]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4219]
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec[3431]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4746]
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 08:38:02 HP-ProBook-650-G1 pkexec[3438]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 5273]
+Apr 13 08:39:01 HP-ProBook-650-G1 CRON[3829]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 08:39:01 HP-ProBook-650-G1 CRON[3829]: pam_unix(cron:session): session closed for user root
+Apr 13 09:07:11 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:11 HP-ProBook-650-G1 pkexec[7283]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4746]
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec[7289]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4219]
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec[7295]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3692]
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec[7301]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3165]
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec[7307]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2638]
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec[7313]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2111]
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec[7319]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1584]
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec[7325]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1057]
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec[7331]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 530]
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec[7337]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3]
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:12 HP-ProBook-650-G1 pkexec[7343]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 0]
+Apr 13 09:07:13 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:07:13 HP-ProBook-650-G1 pkexec[7353]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 13 09:09:01 HP-ProBook-650-G1 CRON[7651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 09:09:01 HP-ProBook-650-G1 CRON[7651]: pam_unix(cron:session): session closed for user root
+Apr 13 09:09:38 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:09:38 HP-ProBook-650-G1 pkexec[7775]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1054]
+Apr 13 09:09:40 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:09:40 HP-ProBook-650-G1 pkexec[7810]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1581]
+Apr 13 09:09:41 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:09:41 HP-ProBook-650-G1 pkexec[7816]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2108]
+Apr 13 09:09:41 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 09:09:41 HP-ProBook-650-G1 pkexec[7822]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2635]
+Apr 13 09:17:01 HP-ProBook-650-G1 CRON[8986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 09:17:01 HP-ProBook-650-G1 CRON[8986]: pam_unix(cron:session): session closed for user root
+Apr 13 09:39:01 HP-ProBook-650-G1 CRON[10869]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 09:39:01 HP-ProBook-650-G1 CRON[10869]: pam_unix(cron:session): session closed for user root
+Apr 13 10:09:01 HP-ProBook-650-G1 CRON[13462]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 10:09:01 HP-ProBook-650-G1 CRON[13462]: pam_unix(cron:session): session closed for user root
+Apr 13 10:17:01 HP-ProBook-650-G1 CRON[14110]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 10:17:01 HP-ProBook-650-G1 CRON[14110]: pam_unix(cron:session): session closed for user root
+Apr 13 10:20:31 HP-ProBook-650-G1 systemd-logind[1301]: System is powering down.
+Apr 13 10:20:31 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session closed for user qwerty
+Apr 13 10:20:31 HP-ProBook-650-G1 systemd-logind[1301]: Removed session c1.
+Apr 13 10:58:07 HP-ProBook-650-G1 systemd-logind[1434]: New seat seat0.
+Apr 13 10:58:07 HP-ProBook-650-G1 systemd-logind[1434]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 13 10:58:07 HP-ProBook-650-G1 systemd-logind[1434]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 13 10:58:07 HP-ProBook-650-G1 systemd-logind[1434]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 13 10:58:07 HP-ProBook-650-G1 systemd-logind[1434]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 13 10:58:07 HP-ProBook-650-G1 systemd-logind[1434]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 13 10:58:07 HP-ProBook-650-G1 systemd-logind[1434]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 13 10:58:07 HP-ProBook-650-G1 systemd-logind[1434]: Watching system buttons on /dev/input/event10 (HP WMI hotkeys)
+Apr 13 10:58:09 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 13 10:58:09 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 13 10:58:09 HP-ProBook-650-G1 systemd-logind[1434]: New session c1 of user qwerty.
+Apr 13 10:58:09 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 13 10:58:10 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 10:58:10 HP-ProBook-650-G1 pkexec[2186]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 13 11:04:03 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:03 HP-ProBook-650-G1 pkexec[4057]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2108]
+Apr 13 11:04:04 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:04 HP-ProBook-650-G1 pkexec[4068]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1581]
+Apr 13 11:04:04 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:04 HP-ProBook-650-G1 pkexec[4074]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1054]
+Apr 13 11:04:04 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:04 HP-ProBook-650-G1 pkexec[4080]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 13 11:04:05 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:05 HP-ProBook-650-G1 pkexec[4086]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 0]
+Apr 13 11:04:06 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:06 HP-ProBook-650-G1 pkexec[4116]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 527]
+Apr 13 11:04:32 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:32 HP-ProBook-650-G1 pkexec[4207]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1054]
+Apr 13 11:04:33 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:33 HP-ProBook-650-G1 pkexec[4213]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 1581]
+Apr 13 11:04:33 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:33 HP-ProBook-650-G1 pkexec[4219]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2108]
+Apr 13 11:04:33 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:33 HP-ProBook-650-G1 pkexec[4225]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2635]
+Apr 13 11:04:33 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 11:04:33 HP-ProBook-650-G1 pkexec[4231]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3162]
+Apr 13 11:09:01 HP-ProBook-650-G1 CRON[4671]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 11:09:01 HP-ProBook-650-G1 CRON[4671]: pam_unix(cron:session): session closed for user root
+Apr 13 11:17:01 HP-ProBook-650-G1 CRON[5503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 11:17:01 HP-ProBook-650-G1 CRON[5503]: pam_unix(cron:session): session closed for user root
+Apr 13 11:39:01 HP-ProBook-650-G1 CRON[8165]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 11:39:01 HP-ProBook-650-G1 CRON[8165]: pam_unix(cron:session): session closed for user root
+Apr 13 11:45:27 HP-ProBook-650-G1 systemd-logind[1434]: System is powering down.
+Apr 13 11:45:27 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session closed for user qwerty
+Apr 13 11:45:27 HP-ProBook-650-G1 systemd-logind[1434]: Removed session c1.
+Apr 13 13:14:11 HP-ProBook-650-G1 systemd-logind[1306]: New seat seat0.
+Apr 13 13:14:11 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event2 (Power Button)
+Apr 13 13:14:11 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Apr 13 13:14:11 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Apr 13 13:14:11 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Apr 13 13:14:11 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event19 (HP WMI hotkeys)
+Apr 13 13:14:11 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 13 13:14:11 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 13 13:14:12 HP-ProBook-650-G1 lightdm: pam_unix(lightdm-autologin:session): session opened for user qwerty by (uid=0)
+Apr 13 13:14:12 HP-ProBook-650-G1 systemd-logind[1306]: New session c1 of user qwerty.
+Apr 13 13:14:12 HP-ProBook-650-G1 systemd: pam_unix(systemd-user:session): session opened for user qwerty by (uid=0)
+Apr 13 13:14:12 HP-ProBook-650-G1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_NZ.UTF-8)
+Apr 13 13:14:13 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 13:14:13 HP-ProBook-650-G1 pkexec[2056]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+Apr 13 13:17:01 HP-ProBook-650-G1 CRON[3558]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 13:17:01 HP-ProBook-650-G1 CRON[3558]: pam_unix(cron:session): session closed for user root
+Apr 13 13:39:01 HP-ProBook-650-G1 CRON[6513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 13:39:01 HP-ProBook-650-G1 CRON[6513]: pam_unix(cron:session): session closed for user root
+Apr 13 13:43:07 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 13 13:43:07 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 13 13:43:10 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 13 13:43:10 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 13 13:43:15 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 13 13:43:15 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 13 13:43:23 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event5 (Telink Wireless Receiver)
+Apr 13 13:43:23 HP-ProBook-650-G1 systemd-logind[1306]: Watching system buttons on /dev/input/event6 (Telink Wireless Receiver)
+Apr 13 14:09:01 HP-ProBook-650-G1 CRON[10314]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 14:09:01 HP-ProBook-650-G1 CRON[10314]: pam_unix(cron:session): session closed for user root
+Apr 13 14:17:01 HP-ProBook-650-G1 CRON[11104]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 13 14:17:01 HP-ProBook-650-G1 CRON[11104]: pam_unix(cron:session): session closed for user root
+Apr 13 14:31:08 HP-ProBook-650-G1 systemd-logind[1306]: Power key pressed.
+Apr 13 14:31:08 HP-ProBook-650-G1 dbus-daemon[1319]: [system] Rejected send message, 4 matched rules; type="method_call", sender=":1.30" (uid=1000 pid=1900 comm="xfce4-power-manager " label="unconfined") interface="org.freedesktop.NetworkManager" member="Sleep" error name="(unset)" requested_reply="0" destination=":1.9" (uid=0 pid=1326 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 13 14:31:08 HP-ProBook-650-G1 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 13 14:31:08 HP-ProBook-650-G1 pkexec[13421]: qwerty: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 3162]
+Apr 13 14:31:08 HP-ProBook-650-G1 dbus-daemon[1319]: [system] Rejected send message, 4 matched rules; type="method_call", sender=":1.30" (uid=1000 pid=1900 comm="xfce4-power-manager " label="unconfined") interface="org.freedesktop.NetworkManager" member="Sleep" error name="(unset)" requested_reply="0" destination=":1.9" (uid=0 pid=1326 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
